@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+.streamlit/config.toml
+
+# Models and Data
+models/*.h5
+models/*.pkl
+models/*.pth
+*.h5
+
+# Data
+data/processed/*
+!data/processed/.gitkeep
+sample_test_images/uploads/*
+
+# Logs
+logs/
+*.log
+
+# Reports
+reports/*.png
+reports/*.json
+!reports/.gitkeep
+
+# Temporary files
+temp_*
+*.tmp
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Cache
+*.cache
+.cache/
+
+# Notebooks
+notebooks/.ipynb_checkpoints/
+
+# TensorBoard
+runs/
